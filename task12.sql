@@ -1,0 +1,1 @@
+SELECT c.FirstName, c.LastName, e.FirstName, e.LastName  FROM Customer c INNER JOIN Employee e ON  e.EmployeeId = c.SupportRepId  WHERE (CustomerId="1" OR CustomerId="3" OR CustomerId="12") ORDER BY c.SupportRepId;

@@ -1,0 +1,4 @@
+Daan|Peeters|Brussels||Belgium|1000
+João|Fernandes|Lisbon||Portugal|
+Madalena|Sampaio|Porto||Portugal|
+Ladislav|Kovács|Budapest||Hungary|H-1073

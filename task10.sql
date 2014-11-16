@@ -1,0 +1,2 @@
+INSERT INTO Customer (FirstName, LastName, Company, Address, City, Country, PostalCode, Email) VALUES ("Vajda","Ferenc","BGF","Buzogány Utca 10-12","Budapest","Hungary","1149", "ferenc_vajda_88@hotmail.com");
+SELECT * FROM Customer WHERE FirstName LIKE "Vajda" AND LastName LIKE "Ferenc";

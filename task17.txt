@@ -1,0 +1,6 @@
+Hannah|Schneider|Berlin|14
+Emma|Jones|London|14
+Dan|Miller|Mountain View|14
+Camille|Bernard|Paris|14
+Helena|Holý|Prague|14
+Eduardo|Martins|São Paulo|14

@@ -1,0 +1,1 @@
+select t.name as TrackName, t.milliseconds, m.Name as MediaName from invoice left join invoiceLine il on il.invoiceid = invoice.InvoiceId left join track t on t.trackid = il.trackid left join MediaType m on m.MediaTypeId = t.MediaTypeId where invoice.billingCountry = "Hungary" ;

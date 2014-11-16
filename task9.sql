@@ -1,0 +1,1 @@
+SELECT e.FirstName, e.Lastname FROM Employee e INNER JOIN Customer c ON c.SupportRepId=e.EmployeeId ORDER BY c.CustomerId LIMIT 25;

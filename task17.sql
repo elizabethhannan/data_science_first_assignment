@@ -1,0 +1,1 @@
+select C.FirstName, C.LastName, I.BillingCity, COUNT(I.BillingCity) FROM Customer AS C JOIN Invoice AS I ON C.CustomerID=I.CustomerID GROUP BY I.BillingCity HAVING COUNT(I.BillingCity) > 10;

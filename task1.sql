@@ -1,0 +1,1 @@
+SELECT Name FROM Genre WHERE GenreId>10 AND GenreId<=20;
